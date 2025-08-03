@@ -1,0 +1,8 @@
+# Meshroom on SageMaker
+
+This repo runs Meshroom photogrammetry on AWS SageMaker headlessly.
+
+## Steps
+1. Upload your input images to S3
+2. Run a SageMaker processing job using this image
+3. Get the 3D model (OBJ) from the output folder
